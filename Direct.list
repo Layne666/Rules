@@ -12,4 +12,4 @@ DOMAIN-SUFFIX,highrise.ai
 DOMAIN-SUFFIX,ilovelink.online
 
 # Postman 走直连，不然检测更新会一直失败
-PROCESS-NAME,Postman.exe
+# PROCESS-NAME,Postman.exe
