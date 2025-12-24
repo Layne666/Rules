@@ -1,3 +1,4 @@
+# 公司业务上需要直连的 IP 和域名
 IP-CIDR,69.31.39.91/32,DIRECT,no-resolve
 IP-CIDR,69.31.39.92/32,DIRECT,no-resolve
 IP-CIDR,69.31.39.93/32,DIRECT,no-resolve
@@ -9,3 +10,6 @@ IP-CIDR,203.156.3.194/32,DIRECT,no-resolve
 IP-CIDR,47.79.124.13/32,DIRECT,no-resolve
 DOMAIN-SUFFIX,highrise.ai,DIRECT
 DOMAIN-SUFFIX,ilovelink.online,DIRECT
+
+# Postman 走直连，不然检测更新会一直失败
+IP-CIDR,183.61.237.128/32,DIRECT,no-resolve
